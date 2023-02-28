@@ -1,0 +1,15 @@
+EDA Monitor
+
+# Description
+This is a program to generate a summary of commands for EDA. It uses the script 
+`proclog-admin-tool.sh` to export data from its database. The output is in XML 
+but uses `CSV` as the enclosing format.
+Output files are in the form of 
+`proclog_<YYYY-MM-DD>_<HH.MM.SS.MSEC>_<SEQ_NR>.csv.gz`. In other words, 
+`proclog_2021-08-10_00.00.01.799_1.csv.gz`.
+
+# 
+
+
+# Environment
+The code was written in Python, version 2.6. 
